@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src = "script.js"></script>
+    <title>COVID-19 STATS</title>
+</head>
+<body>
+    <header>
+            <p>COVID-19 TRACKER</p>
+    </header>
+    <Main>
+        <div class="stats">
+            <div class="latestreport">
+                <div class="Province">
+                    <pname id="name">Loading...</pname>
+                </div>
+                    
+                    <div class="search-province">
+                        
+                        <select class = "list" id="mySelect" onchange="myFunction(this.value)">
+                            <option disabled selected value="dis">Select a Province</option> 
+                            <option value="AB">Alberta</option>
+                            <option value="BC">British Columbia</option>
+                            <option value="MB">Manitoba</option>
+                            <option value="NB">New Brunswick</option>
+                            <option value="NL">Newfoundland and Labrador</option>
+                            <option value="NS">Nova Scotia</option> 
+                            <option value="ON">Ontario</option>
+                            <option value="PE">Prince Edward Island</option>
+                            <option value="QC">Quebec</option>
+                            <option value="SK">Saskatchewan</option>
+                            <option value="NT">Northwest Territories</option>
+                            <option value="NU">Nunavut</option>
+                            <option value="YT">Yukon</option>
+                        </select>
+                    
+                        <button class="Btn" onclick="getCanada()">Canada</button>
+                    </div>
+                
+                    <div class= numbers>
+                <div class="total-cases">
+                    <div class="title">Total Cases</div>
+                    <p id="casesOut">0</p> <!-- inital value -->
+                    <p id="casesToday">+0 Today</p> <!-- inital value -->
+                </div>
+    
+                <div class="recovered">
+                    <div class="title">Recovered</div>
+                    <p id="recoveredOut">0</p> <!-- inital value -->
+                    <p id="recoveredToday">+0 Today</p> <!-- inital value -->
+                </div>
+                
+                <div class="deaths">
+                    <div class="title">Deaths</div>
+                    <p id="deathsOut">0</p> <!-- inital value -->
+                    <p id="deathsToday">+0 Today</p> <!-- inital value -->
+                </div>
+                </div>      
+            </div>
+        </div>
+    </Main>
+    
+    <footer>Jaskirat Pabla</footer>
+
+</body>
+</html>
