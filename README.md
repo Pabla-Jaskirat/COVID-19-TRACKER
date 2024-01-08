@@ -1,8 +1,8 @@
 # COVID-19-TRACKER
-This repository contains a personal project that I have made. This project is a near real-time Covid-19 statistics tracker that reports cases, recoveries, and deaths for the country of Canada as well as the provinces and territories of Canada. 
+This repository showcases a personal project—a dynamic near real-time Covid-19 statistics tracker. It offers up-to-the-minute reports on cases, recoveries, and deaths, meticulously detailing the pandemic's impact on Canada, including its provinces and territories. 
 
 ## How Does it Work?
-When the project is initially loaded, statistics for Canada are displayed by default. To view the statistics for a specific province/territory in Canada, simply use the drop-down list to select the desired province/territory. To view the statistics of Canada again, press the Canada button beside the drop-down list.
+Upon initial loading, the project displays default statistics for Canada. Easily explore statistics for a specific province/territory by using the convenient drop-down list. To return to viewing overall Canadian statistics, simply press the 'Canada' button located beside the drop-down list.
 
 ## API
 The API used in this project is from https://covid19tracker.ca/. 
